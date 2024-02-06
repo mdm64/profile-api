@@ -1,3 +1,11 @@
+setup git file:
+1. git init
+2. git commit -am "msg"
+3. ls ~/.ssh
+4. ssh-keygen -t rsa -b 4096 -C "mehramayank0906@gmail.com"
+5. cat ~/.ssh/id_rsa.pub 
+6. 
+
 setup vagrant dev env
 1. vagrant init ubuntu/bionic64
 2. update vagrant file 
@@ -5,3 +13,21 @@ setup vagrant dev env
 4. to connect with a machine just type vagrant ssh command
 5. to exit the machine run exit command
 after this command you are in virtual machine dev env go to vagrant using cd vagrant command all our ptoject files are there and interconnected
+
+how to commit changes in git?
+for this exit out of dev env.
+1. git add .
+2. git commit -am "msg"
+3. git push origin
+
+env creation:
+1.  python -m venv ~/env
+2. source ~/env/bin/activate
+
+how to create a project in django
+1. django-admin.py startproject project_name .
+
+to create a new app inside a app
+1. python manage.py startapp profiles_api
+
+always save apps in sttings.py file whatever new app you have created
