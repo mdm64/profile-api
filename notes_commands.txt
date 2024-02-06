@@ -1,0 +1,7 @@
+setup vagrant dev env
+1. vagrant init ubuntu/bionic64
+2. update vagrant file 
+3. run vagrant up command
+4. to connect with a machine just type vagrant ssh command
+5. to exit the machine run exit command
+after this command you are in virtual machine dev env go to vagrant using cd vagrant command all our ptoject files are there and interconnected
