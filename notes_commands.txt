@@ -31,3 +31,9 @@ to create a new app inside a app
 1. python manage.py startapp profiles_api
 
 always save apps in sttings.py file whatever new app you have created
+
+api create steps:
+1. model
+2. serializer
+3. views
+4. urls
